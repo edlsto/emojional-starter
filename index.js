@@ -41,15 +41,3 @@ function showResponseCrying () {
     msg.innerText = cryingResponses[index];
   }
 }
-
-function showResponseSilly () {
-  var index = Math.floor(Math.random() * 3);
-  var msg = document.querySelector('.message');
-  msg.innerText = sillyResponses[index];
-}
-
-function showResponseCrying () {
-  var index = Math.floor(Math.random() * 3);
-  var msg = document.querySelector('.message');
-  msg.innerText = cryingResponses[index];
-}
